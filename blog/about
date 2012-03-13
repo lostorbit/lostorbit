@@ -1,0 +1,28 @@
+lostorbit.net^^^
+I put together this website in an effort to have a central place to keep track
+of some of the projects I spend most of my time on, and to keep an updated 
+resume on the web. I needed a quick-and-dirty
+way to update everything, and it needed to be reliable and secure. It needed to 
+be crazy-simple to customize, and overall look professional. I really didn't
+want to use a pre-existing CMS like Drupal, and I didn't want to shoehorn
+Wordpress into something it shouldn't be.
+I also wanted to brush up on my PHP, as it's been far too long since I've needed
+to do a "real" project with it. Overall, it had to be simple to make, simple
+to maintain, and simple to update.
+
+Thus, this website (in its present form) was born!
+
+I'm using three-ish PHP files to pull [Markdown](http://daringfireball.net/projects/markdown)
+formatted text files, and assemble some HTML. It's stupid-easy. Every now and
+then I'll run a script on my own to make sure tag links are up to date.
+
+As for the site theme, I'm using pictures of [Dione](http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4457)
+and [Enceladus](http://saturn.jpl.nasa.gov/photos/imagedetails/index.cfm?imageId=4458)
+from the [Cassini mission](http://saturn.jpl.nasa.gov/) for background images,
+and tried to be as minimalistic as possible for everything else. It's partially
+inspired by another engineer's personal site I'd come across awhile ago, but
+I've since lost the link.
+
+You can check out the [github project](https://github.com/lostorbit/lostorbit)
+if so inclined.
+^^^cms, lostorbit, php^^^

@@ -1,0 +1,58 @@
+
+body {color:#fff; height: 100%; padding: 0px;
+    margin: 0px; background-color:#000;
+    /*font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; */
+    font-family: "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    background-image:url("images/rings2.jpg");  background-repeaT:no-repeat;
+}
+a, a:visited, a:hover, a:link, a:active 
+    {color:#ddd; font-style:italic; text-decoration:underline;}
+h2, h3 { font-weight:normal; font-style:italic;}
+h1 { font-size:2em; }
+h2 { font-size:1.5em;}
+h3 { font-size:1.17em; }
+/* p { font-size: 1em; } */
+p, h4 { font-size:.83em; /* font-size:1em; */ }
+h5 { font-size:.83em;}
+h6 { font-size:.75em;}
+
+#outer {width: 100%; height: 100%; overflow: visible;
+    padding: 0px; margin: 0px;}
+#middle {vertical-align: middle}
+#centered {width: 770px; margin-left: auto; margin-right: auto;
+    text-align:center; color:#ddd}
+#centered .projheader {width:200px; border:1px solid #444; float:left}
+
+/* main content section */
+
+#content { margin-left:50px; margin-top:5px; color:#fff;
+    padding-bottom:50px;} 
+
+#content div .entry .tags { font-size:.83em; margin-bottom:2px; display:block;
+    padding-bottom:1em;}
+
+#content #projs .entry { margin-right:10px; margin-bottom:10px;
+    text-align:left; float:left; width:200px; height:200px;
+    background:rgb(50,50,50); background:rgba(50,50,50,0.5);
+    padding:0px 15px; }
+#content #projs .entry h3 { text-align:center; }
+#content #projs .entry p { font-size:.83em; }
+
+#content #blogs {clear:both;}
+#content #blogs .entry { background:rgba(50,50,50,0.5);
+    padding:1px 15px; margin-bottom:10px; width:680px;}
+#content #blogs .entry p {font-size:.83em; }
+
+#links div {float:left; width:150px; background:rgba(50,50,50,0.5);
+    padding:3px; 10px; margin-right: 25px; text-align:center;}
+
+.moreproj {clear:both;}
+#name {color:#fff; font-weight:bold}
+#topleft {padding:5px; font-size:.75em;}
+#footer { clear:both;}
+#head {width:700px;}
+
+#tags { font-size:.83em; margin-top:1em; border-top:1px solid #555; width:90%;}
+
+.genstat { font-size:.70em; font-style:italic; color:#bbb;
+        clear:both; padding-top:1em;}
