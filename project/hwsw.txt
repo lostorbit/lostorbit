@@ -1,0 +1,6 @@
+HW/SW CoDesign^^^
+A lot of the work I'm doing for COPPER and many other projects
+has to do with hardware/software co-design. I'm trying to assemble
+all the painful problems (and their solutions!) in one place.
+^^^first post, test^^^
+1^^^
