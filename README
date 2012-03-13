@@ -8,3 +8,8 @@ features
 --------
 - markdown formatting
 - tagging
+
+
+please download and install markdown-extra from
+http://michelf.com/projects/php-markdown/ and place markdown.php into
+the ./md directory

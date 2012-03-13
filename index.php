@@ -17,15 +17,31 @@ $starttime = pagetimer();
 // bring in our data
 // getfolder(DIRECTORY) returns an array per-item with
 //  title, body, tags (array)
-$blogs = getfolder('blog',0);
+$blogs = getfolder('blog',1);
 $projects = getfolder('project',1);
 $sizeof['blogs'] = sizeof($blogs);
 $sizeof['projects'] = sizeof($projects);
 ?>
 
 <html>
-    <title>lostorbit.net</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <head>
+        <title>lostorbit.net</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-3496022-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
+    </head>
 <body>
 
 <div id="content">
@@ -54,7 +70,7 @@ $sizeof['projects'] = sizeof($projects);
 
     <div id="links">
         <h2>Links</h2>
-        <div><a href="resume-long.php">resume</a></div>
+        <div><a href="resume-long.pdf">resume</a></div>
         <div><a href="http://www.linkedin.com/in/lostorbit">linkedin</a></div>
         <div><a href="http://www.twitter.com/orbitlost">twitter</a></div>
         <div><a href="http://www.facebook.com/lostorbit">facebook</a></div>
