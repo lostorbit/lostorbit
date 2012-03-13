@@ -74,7 +74,7 @@ else
         foreach($alltags as $tag) {
             echo "<h3 style='border-bottom:1px solid #555;'>".$tagnames[$itr]."</h3>"; $itr++;
             foreach($tag as $page) {
-                echo "<p><b>".$page['title']."</b> is ".$page['name']." @ ".$page['home']."</p>";
+                echo "<p><a href='page.php?f=".$page['home']."&e=".$page['name']."'><b>".$page['title']."</b></a>"; // is ".$page['name']." @ ".$page['home']."</p>";
                 echo "<p>".$page['preview']."...</p>";
             }
         }
