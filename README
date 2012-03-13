@@ -1,0 +1,10 @@
+personal homepage - http://lostorbit.net
+
+this is the "CMS" that runs my personal site. I put CMS in quotes because 
+this is little more than a quick-and-dirty way to write posts and notes
+using markdown and serve them up as a website
+
+features
+--------
+- markdown formatting
+- tagging
