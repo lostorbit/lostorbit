@@ -156,7 +156,8 @@ function gentags($tag_arr)
     if($tag_arr != NULL) {
         $returnMe .= "<b>tags: </b>";
         foreach($tag_arr as $tag) {
-            $returnMe .= "<i><a href='tags.php?t=".trim($tag)."'>".trim($tag)."</a>,</i> ";
+            //$returnMe .= "<i><a href='tags.php?t=".trim($tag)."'>".trim($tag)."</a>,</i> ";
+            $returnMe .= "<i><a href='tags-".trim($tag).".html'>".trim($tag)."</a>,</i> ";
         }
     }
     $returnMe .= "</span>";
@@ -169,7 +170,7 @@ function get404()
 {
 
     $page['title'] = "404 Not Found";
-    $page['body'] = "Nothing was found here. Head back to the <a href='./'>front page</a>";
+    $page['body'] = "Nothing was found here. Head back to the <a href='/'>front page</a>";
     $page['tags'] = NULL;
 
     return $page;
@@ -177,7 +178,8 @@ function get404()
 
 function genlink($arr)
 {
-    return "<a href='page.php?f=".$arr['home']."&e=".$arr['name']."'>";
+    return "<a href='/".$arr['home']."/".$arr['name'].".html'>";
+    //return "<a href='page.php?f=".$arr['home']."&e=".$arr['name']."'>";
 }
 
 /////////////////////////////////////

@@ -1,0 +1,10 @@
+Options +Indexes
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule index.html index.php
+RewriteRule ^([^/]*)/([^/]*)\.html$ page.php?f=$1&e=$2
+RewriteRule ^tags-([^/]*)\.html$ tags.php?t=$1
+RewriteRule tags.html tags.php
+#RewriteEngine on
+#RewriteRule ^s/(.*)_(.*)\$ page.php?f=$1&e=$2
+#RewriteRule page(.*)-(.*)\.html$ /lostorbit/page.php?f=$1&e=$2

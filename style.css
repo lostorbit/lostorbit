@@ -39,10 +39,11 @@ h6 { font-size:.75em;}
 #content #projs .entry p { font-size:.83em; }
 
 #content #blogs {clear:both;}
-#content #blogs .entry { background:rgba(50,50,50,0.5);
+#content #main, #content #blogs .entry { background:rgba(50,50,50,0.5);
     padding:1px 15px; margin-bottom:10px; width:680px;}
-#content #blogs .entry p {font-size:.83em; }
-#content #blogs .entry ul {font-size:.83em; }
+#content #main p, #content #blogs .entry p {font-size:.83em; }
+#content #main ul, #content #blogs .entry ul {font-size:.83em; }
+ul { font-size:.83em; }
 
 #links div {float:left; width:150px; background:rgba(50,50,50,0.5);
     padding:3px; 10px; margin-right: 25px; text-align:center;}

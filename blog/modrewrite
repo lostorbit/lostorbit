@@ -1,0 +1,31 @@
+mod_rewrite^^^
+I had some trouble cleaning up my URLs on my local copy of this site. As
+much as I wanted to use a [super easy wizard](http://www.generateit.net/mod-rewrite/)
+to automagically make mod rewrite rules for me, nothing seemed to take.
+
+phpinfo() showed mod_rewrite was turned on, and "apache2ctrl -M" showed
+the same. 
+
+So I saw if maybe my regex statements were even set up right, and put 
+this alone in my .htaccess:
+~~~
+RewriteEngine On
+RewriteRule index.html index.php
+~~~
+And it didn't work! index.html came up with a 404 instead of mapping to
+my index.php. Obviously something was up with modrewrite that I didn't understand.
+
+So then thanks to the wisdom of [this StackOverflow post](http://superuser.com/questions/278610/apache2-rewriterule-not-working)
+I was able to properly enable mod_rewrite. In short, I had to:
+
++ Add "RewriteEngine On" to /etc/apache2/mods-available/rewrite.conf. I had to make this file, as the only thing in mods-avaliable was rewrite.load
++ Change "AllowOverride None" to "AllowOverride All" in /etc/apache2/sites-avaliable/default, in both occurances for &lt;Directory /&gt; and &lt;Directory /var/www/ /&gt;
++ Reload Apache using "sudo service apache2 restart"
+
+After those tasks, I could remap index.php to index.html, thus showing
+mod_rewrite working.
+
+This was under Ubuntu 11.10, but I hope this helps for other versions and
+distros as well. 
+
+^^^lostorbit, CMS^^^2^^^

@@ -28,9 +28,10 @@ if(isset($_GET['f']) && isset($_GET['e'])) {
 <html>
     <head>
         <title>lostorbit.net</title>
+        <link href="../style.css" rel="stylesheet" type="text/css" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
-            body {background-color:#000;  background-image:url('images/rings1.jpg'); background-repeat:repeat-x; }
+            body {background-color:#000;  background-image:url('../images/rings1.jpg'); background-repeat:repeat-x; }
         </style>
         <script type="text/javascript">
 
@@ -50,12 +51,12 @@ if(isset($_GET['f']) && isset($_GET['e'])) {
 
 <div id="content">
     <div id="topleft">
-        <a href="./">back to home</a>
+        <a href="/">back to home</a>
     </div>
 
     <h2><? print $page['title']; ?></h2>
 
-    <div id="head">
+    <div id="main">
         <? print $page['body']; ?>
     </div>
 

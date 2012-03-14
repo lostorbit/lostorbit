@@ -51,7 +51,7 @@ else
 
 <div id="content">
     <div id="topleft">
-        <a href="./">back to home</a> - <a href="./tags.php">see all tags</a>
+        <a href="/">back to home</a> - <a href="/tags.html">see all tags</a>
     </div>
 
     <h2>Tags</h2>
@@ -65,7 +65,8 @@ else
     if(isset($alltags[$page])) {
         echo "<h3 style='border-bottom:1px solid #555;'>".$page."</h3>";
         foreach($alltags[$page] as $tag) {
-            echo "<p><a href='page.php?f=".$tag['home']."&e=".$tag['name']."'><b>".$tag['title']."</b></a>"; // is ".$tag['name']." @ ".$tag['home']."</p>";
+//            echo "<p><a href='page.php?f=".$tag['home']."&e=".$tag['name']."'><b>".$tag['title']."</b></a>"; // is ".$tag['name']." @ ".$tag['home']."</p>";
+            echo "<p><a href='/".$tag['home']."/".$tag['name'].".html'><b>".$tag['title']."</b></a>"; // is ".$tag['name']." @ ".$tag['home']."</p>";
             echo "<p>".$tag['preview']."...</p>";
         }
     } else {
@@ -74,7 +75,8 @@ else
         foreach($alltags as $tag) {
             echo "<h3 style='border-bottom:1px solid #555;'>".$tagnames[$itr]."</h3>"; $itr++;
             foreach($tag as $page) {
-                echo "<p><a href='page.php?f=".$page['home']."&e=".$page['name']."'><b>".$page['title']."</b></a>"; // is ".$page['name']." @ ".$page['home']."</p>";
+//                echo "<p><a href='page.php?f=".$page['home']."&e=".$page['name']."'><b>".$page['title']."</b></a>"; // is ".$page['name']." @ ".$page['home']."</p>";
+                echo "<p><a href='/".$page['home']."/".$page['name'].".html'><b>".$page['title']."</b></a>"; // is ".$page['name']." @ ".$page['home']."</p>";
                 echo "<p>".$page['preview']."...</p>";
             }
         }
