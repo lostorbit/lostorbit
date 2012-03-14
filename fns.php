@@ -157,7 +157,7 @@ function gentags($tag_arr)
         $returnMe .= "<b>tags: </b>";
         foreach($tag_arr as $tag) {
             //$returnMe .= "<i><a href='tags.php?t=".trim($tag)."'>".trim($tag)."</a>,</i> ";
-            $returnMe .= "<i><a href='tags-".trim($tag).".html'>".trim($tag)."</a>,</i> ";
+            $returnMe .= "<i><a href='/tags-".trim($tag).".html'>".trim($tag)."</a>,</i> ";
         }
     }
     $returnMe .= "</span>";
