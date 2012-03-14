@@ -66,6 +66,11 @@ $sizeof['projects'] = sizeof($projects);
     <div id="blogs">
         <h2>Blogs</h2>
     <? print genfpblock($blogs, $sizeof['blogs'], 'blogs', 5, 1); ?>
+
+        <div class="entry"><p>
+        For older entries, you can <a href="tags.html">browse the archive</a>
+        sorted by taggings.
+        </p></div>
     </div>
 
     <div id="links">
