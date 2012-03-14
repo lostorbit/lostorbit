@@ -60,7 +60,7 @@ $sizeof['projects'] = sizeof($projects);
 
     <div id="projs">
         <h2>Projects</h2>
-    <? print genfpblock($projects, $sizeof['projects'], 'projects', 3, 0); ?>
+    <? print genfpblock($projects, $sizeof['projects'], 'projects', 3, 2); ?>
     </div>
 
     <div id="blogs">

@@ -34,7 +34,7 @@ h6 { font-size:.75em;}
 #content #projs .entry { margin-right:10px; margin-bottom:10px;
     text-align:left; float:left; width:200px; height:200px;
     background:rgb(50,50,50); background:rgba(50,50,50,0.5);
-    padding:0px 15px; }
+    padding:0px 15px 10px; }
 #content #projs .entry h3 { text-align:center; }
 #content #projs .entry p { font-size:.83em; }
 

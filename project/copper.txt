@@ -3,5 +3,5 @@ Saint Louis University's first CubeSat, manifested for 2013 launch.
 Two missions: Use a low-cost infrared camera for on-orbit imaging;
 Begin to verify new models of radiation-induced electronic upsets
 on-orbit
-^^^first post, test^^^
+^^^CubeSat, COPPER^^^
 2^^^

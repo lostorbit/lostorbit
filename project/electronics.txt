@@ -1,5 +1,5 @@
 Electronics^^^
 Practical experience is the best way to learn a lot of ECE concepts.
 I'm keeping track of some of the more interesting ones.
-^^^first post, test^^^
+^^^ ^^^
 0^^^

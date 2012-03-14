@@ -1,5 +1,6 @@
 git - bare minimum^^^
-The bare minimum commands you need to update your git are as follows:
+The bare minimum commands you need to update your git repo and sync
+to your github account are as follows:
 ~~~
 git status
 git add <any new files>

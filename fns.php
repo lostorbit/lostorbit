@@ -193,10 +193,8 @@ function genfpblock($arr, $size, $title, $NUM_ELEM, $dotags)
 {
     $returnMe = ""; //"<div id='".$title."'>\r\n";
 
-//  $returnMe .= "<pre>counting from ".($size-1)." down to ".($size-$NUM_ELEM)."</pre>";
     if($NUM_ELEM >  $size-1) {
         $NUM_ELEM = $size;
-//      $returnMe .= "<pre>set to match. now counting from ".($size-1)." down to ".($size-$NUM_ELEM)."</pre>";
     } 
 
     // print out blog entries
