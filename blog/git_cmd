@@ -1,0 +1,10 @@
+git - bare minimum^^^
+The bare minimum commands you need to update your git are as follows:
+~~~
+git status
+git add <any new files>
+git commit -a -m "Update Description"
+git push -o origin master
+~~~
+There, I said it. I didn't see this written down anywhere in this order. And now it is.
+^^^git, lostorbit^^^3^^^
