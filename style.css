@@ -40,19 +40,19 @@ h6 { font-size:.75em;}
 
 #content #blogs {clear:both;}
 #content #main, #content #blogs .entry { background:rgba(50,50,50,0.5);
-    padding:1px 15px; margin-bottom:10px; width:680px;}
+    padding:1px 15px; margin-bottom:10px; max-width:680px; margin-right:20px;}
 #content #main p, #content #blogs .entry p {font-size:.83em; }
 #content #main ul, #content #blogs .entry ul {font-size:.83em; }
 ul { font-size:.83em; }
 
 #links div {float:left; width:150px; background:rgba(50,50,50,0.5);
-    padding:3px; 10px; margin-right: 25px; text-align:center;}
+    padding:3px; 10px; margin-right: 25px; text-align:center; margin-bottom:10px;}
 
 .moreproj {clear:both;}
 #name {color:#fff; font-weight:bold}
 #topleft {padding:5px; font-size:.75em;}
 #footer { clear:both;}
-#head {width:700px;}
+#head {max-width:700px;}
 
 #tags { font-size:.83em; margin-top:1em; border-top:1px solid #555; width:90%;}
 
