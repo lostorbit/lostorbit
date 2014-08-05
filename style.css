@@ -39,7 +39,7 @@ h6 { font-size:.75em;}
 #content #projs .entry p { font-size:.83em; }
 
 #content #blogs {clear:both;}
-#content #main, #content #blogs .entry { background:rgba(50,50,50,0.5);
+#content #main, #content #blogs .entry { background:rgba(100,100,100,0.4);
     padding:1px 15px; margin-bottom:10px; max-width:680px; margin-right:20px;}
 #content #main p, #content #blogs .entry p {font-size:.83em; }
 #content #main ul, #content #blogs .entry ul {font-size:.83em; }
