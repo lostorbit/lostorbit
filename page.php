@@ -31,7 +31,7 @@ if(isset($_GET['f']) && isset($_GET['e'])) {
         <link href="../style.css" rel="stylesheet" type="text/css" />
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
-            body {background-color:#000;  background-image:url('../images/rings1.jpg'); background-repeat:repeat-x; }
+            body {background: url('../images/rings1.jpg') no-repeat, url('../images/rings1_side.jpg') repeat-x, #000000; } 
         </style>
         <script type="text/javascript">
 
